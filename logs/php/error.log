@@ -1,0 +1,196 @@
+[09-Oct-2024 09:31:37 UTC] Erreur d’événement de replanification de tâche pour le crochet action_scheduler_run_queue. Code d’erreur : could_not_set. Message d’erreur : La liste des évènements planifiés n’a pas pu être sauvegardée.. Données : {"schedule":"every_minute","args":["WP Cron"],"interval":60}
+[09-Oct-2024 09:31:37 UTC] Erreur d’événement de replanification de tâche pour le crochet wp_privacy_delete_old_export_files. Code d’erreur : could_not_set. Message d’erreur : La liste des évènements planifiés n’a pas pu être sauvegardée.. Données : {"schedule":"hourly","args":[],"interval":3600}
+[10-Oct-2024 03:46:29 UTC] PHP Fatal error:  Uncaught Error: Call to a member function get_entries() on null in C:\Users\kossi\Local Sites\nation-sound77\app\public\wp-content\plugins\insert-headers-and-footers\includes\class-wpcode-snippet-execute.php(316) : eval()'d code:112
+Stack trace:
+#0 C:\Users\kossi\Local Sites\nation-sound77\app\public\wp-includes\shortcodes.php(434): wpf_entries_table(Array, '', 'wpforms_entries...')
+#1 [internal function]: do_shortcode_tag(Array)
+#2 C:\Users\kossi\Local Sites\nation-sound77\app\public\wp-includes\shortcodes.php(273): preg_replace_callback('/\\[(\\[?)(wpform...', 'do_shortcode_ta...', '[wpforms_entrie...')
+#3 C:\Users\kossi\Local Sites\nation-sound77\app\public\wp-includes\class-wp-hook.php(324): do_shortcode('[wpforms_entrie...')
+#4 C:\Users\kossi\Local Sites\nation-sound77\app\public\wp-includes\plugin.php(205): WP_Hook->apply_filters('[wpforms_entrie...', Array)
+#5 C:\Users\kossi\Local Sites\nation-sound77\app\public\wp-includes\rest-api\endpoints\class-wp-rest-posts-controller.php(1871): apply_filters('the_content', '<!-- wp:shortco...')
+#6 C:\Users\kossi\Local Sites\nation-sound77\app\public\wp-includes\rest-api\endpoints\class-wp-rest-posts-controller.php(958): WP_REST_Posts_Controller->prepare_item_for_response(Object(WP_Post), Object(WP_REST_Request))
+#7 C:\Users\kossi\Local Sites\nation-sound77\app\public\wp-includes\rest-api\class-wp-rest-server.php(1230): WP_REST_Posts_Controller->update_item(Object(WP_REST_Request))
+#8 C:\Users\kossi\Local Sites\nation-sound77\app\public\wp-includes\rest-api\class-wp-rest-server.php(1063): WP_REST_Server->respond_to_request(Object(WP_REST_Request), '/wp/v2/pages/(?...', Array, NULL)
+#9 C:\Users\kossi\Local Sites\nation-sound77\app\public\wp-includes\rest-api\class-wp-rest-server.php(439): WP_REST_Server->dispatch(Object(WP_REST_Request))
+#10 C:\Users\kossi\Local Sites\nation-sound77\app\public\wp-includes\rest-api.php(420): WP_REST_Server->serve_request('/wp/v2/pages/32...')
+#11 C:\Users\kossi\Local Sites\nation-sound77\app\public\wp-includes\class-wp-hook.php(324): rest_api_loaded(Object(WP))
+#12 C:\Users\kossi\Local Sites\nation-sound77\app\public\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#13 C:\Users\kossi\Local Sites\nation-sound77\app\public\wp-includes\plugin.php(565): WP_Hook->do_action(Array)
+#14 C:\Users\kossi\Local Sites\nation-sound77\app\public\wp-includes\class-wp.php(418): do_action_ref_array('parse_request', Array)
+#15 C:\Users\kossi\Local Sites\nation-sound77\app\public\wp-includes\class-wp.php(813): WP->parse_request('')
+#16 C:\Users\kossi\Local Sites\nation-sound77\app\public\wp-includes\functions.php(1336): WP->main('')
+#17 C:\Users\kossi\Local Sites\nation-sound77\app\public\wp-blog-header.php(16): wp()
+#18 C:\Users\kossi\Local Sites\nation-sound77\app\public\index.php(17): require('C:\\Users\\kossi\\...')
+#19 {main}
+  thrown in C:\Users\kossi\Local Sites\nation-sound77\app\public\wp-content\plugins\insert-headers-and-footers\includes\class-wpcode-snippet-execute.php(316) : eval()'d code on line 112
+[10-Oct-2024 03:55:27 UTC] PHP Fatal error:  Uncaught Error: Call to a member function get_entries() on null in C:\Users\kossi\Local Sites\nation-sound77\app\public\wp-content\plugins\insert-headers-and-footers\includes\class-wpcode-snippet-execute.php(316) : eval()'d code:112
+Stack trace:
+#0 C:\Users\kossi\Local Sites\nation-sound77\app\public\wp-includes\shortcodes.php(434): wpf_entries_table(Array, '', 'wpforms_entries...')
+#1 [internal function]: do_shortcode_tag(Array)
+#2 C:\Users\kossi\Local Sites\nation-sound77\app\public\wp-includes\shortcodes.php(273): preg_replace_callback('/\\[(\\[?)(wpform...', 'do_shortcode_ta...', '[wpforms_entrie...')
+#3 C:\Users\kossi\Local Sites\nation-sound77\app\public\wp-includes\class-wp-hook.php(324): do_shortcode('[wpforms_entrie...')
+#4 C:\Users\kossi\Local Sites\nation-sound77\app\public\wp-includes\plugin.php(205): WP_Hook->apply_filters('[wpforms_entrie...', Array)
+#5 C:\Users\kossi\Local Sites\nation-sound77\app\public\wp-includes\rest-api\endpoints\class-wp-rest-posts-controller.php(1871): apply_filters('the_content', '<!-- wp:shortco...')
+#6 C:\Users\kossi\Local Sites\nation-sound77\app\public\wp-includes\rest-api\endpoints\class-wp-rest-posts-controller.php(958): WP_REST_Posts_Controller->prepare_item_for_response(Object(WP_Post), Object(WP_REST_Request))
+#7 C:\Users\kossi\Local Sites\nation-sound77\app\public\wp-includes\rest-api\class-wp-rest-server.php(1230): WP_REST_Posts_Controller->update_item(Object(WP_REST_Request))
+#8 C:\Users\kossi\Local Sites\nation-sound77\app\public\wp-includes\rest-api\class-wp-rest-server.php(1063): WP_REST_Server->respond_to_request(Object(WP_REST_Request), '/wp/v2/pages/(?...', Array, NULL)
+#9 C:\Users\kossi\Local Sites\nation-sound77\app\public\wp-includes\rest-api\class-wp-rest-server.php(439): WP_REST_Server->dispatch(Object(WP_REST_Request))
+#10 C:\Users\kossi\Local Sites\nation-sound77\app\public\wp-includes\rest-api.php(420): WP_REST_Server->serve_request('/wp/v2/pages/32...')
+#11 C:\Users\kossi\Local Sites\nation-sound77\app\public\wp-includes\class-wp-hook.php(324): rest_api_loaded(Object(WP))
+#12 C:\Users\kossi\Local Sites\nation-sound77\app\public\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#13 C:\Users\kossi\Local Sites\nation-sound77\app\public\wp-includes\plugin.php(565): WP_Hook->do_action(Array)
+#14 C:\Users\kossi\Local Sites\nation-sound77\app\public\wp-includes\class-wp.php(418): do_action_ref_array('parse_request', Array)
+#15 C:\Users\kossi\Local Sites\nation-sound77\app\public\wp-includes\class-wp.php(813): WP->parse_request('')
+#16 C:\Users\kossi\Local Sites\nation-sound77\app\public\wp-includes\functions.php(1336): WP->main('')
+#17 C:\Users\kossi\Local Sites\nation-sound77\app\public\wp-blog-header.php(16): wp()
+#18 C:\Users\kossi\Local Sites\nation-sound77\app\public\index.php(17): require('C:\\Users\\kossi\\...')
+#19 {main}
+  thrown in C:\Users\kossi\Local Sites\nation-sound77\app\public\wp-content\plugins\insert-headers-and-footers\includes\class-wpcode-snippet-execute.php(316) : eval()'d code on line 112
+[10-Oct-2024 03:55:33 UTC] PHP Fatal error:  Uncaught Error: Call to a member function get_entries() on null in C:\Users\kossi\Local Sites\nation-sound77\app\public\wp-content\plugins\insert-headers-and-footers\includes\class-wpcode-snippet-execute.php(316) : eval()'d code:112
+Stack trace:
+#0 C:\Users\kossi\Local Sites\nation-sound77\app\public\wp-includes\shortcodes.php(434): wpf_entries_table(Array, '', 'wpforms_entries...')
+#1 [internal function]: do_shortcode_tag(Array)
+#2 C:\Users\kossi\Local Sites\nation-sound77\app\public\wp-includes\shortcodes.php(273): preg_replace_callback('/\\[(\\[?)(wpform...', 'do_shortcode_ta...', '[wpforms_entrie...')
+#3 C:\Users\kossi\Local Sites\nation-sound77\app\public\wp-includes\class-wp-hook.php(324): do_shortcode('[wpforms_entrie...')
+#4 C:\Users\kossi\Local Sites\nation-sound77\app\public\wp-includes\plugin.php(205): WP_Hook->apply_filters('[wpforms_entrie...', Array)
+#5 C:\Users\kossi\Local Sites\nation-sound77\app\public\wp-includes\rest-api\endpoints\class-wp-rest-posts-controller.php(1871): apply_filters('the_content', '<!-- wp:shortco...')
+#6 C:\Users\kossi\Local Sites\nation-sound77\app\public\wp-includes\rest-api\endpoints\class-wp-rest-posts-controller.php(958): WP_REST_Posts_Controller->prepare_item_for_response(Object(WP_Post), Object(WP_REST_Request))
+#7 C:\Users\kossi\Local Sites\nation-sound77\app\public\wp-includes\rest-api\class-wp-rest-server.php(1230): WP_REST_Posts_Controller->update_item(Object(WP_REST_Request))
+#8 C:\Users\kossi\Local Sites\nation-sound77\app\public\wp-includes\rest-api\class-wp-rest-server.php(1063): WP_REST_Server->respond_to_request(Object(WP_REST_Request), '/wp/v2/pages/(?...', Array, NULL)
+#9 C:\Users\kossi\Local Sites\nation-sound77\app\public\wp-includes\rest-api\class-wp-rest-server.php(439): WP_REST_Server->dispatch(Object(WP_REST_Request))
+#10 C:\Users\kossi\Local Sites\nation-sound77\app\public\wp-includes\rest-api.php(420): WP_REST_Server->serve_request('/wp/v2/pages/32...')
+#11 C:\Users\kossi\Local Sites\nation-sound77\app\public\wp-includes\class-wp-hook.php(324): rest_api_loaded(Object(WP))
+#12 C:\Users\kossi\Local Sites\nation-sound77\app\public\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#13 C:\Users\kossi\Local Sites\nation-sound77\app\public\wp-includes\plugin.php(565): WP_Hook->do_action(Array)
+#14 C:\Users\kossi\Local Sites\nation-sound77\app\public\wp-includes\class-wp.php(418): do_action_ref_array('parse_request', Array)
+#15 C:\Users\kossi\Local Sites\nation-sound77\app\public\wp-includes\class-wp.php(813): WP->parse_request('')
+#16 C:\Users\kossi\Local Sites\nation-sound77\app\public\wp-includes\functions.php(1336): WP->main('')
+#17 C:\Users\kossi\Local Sites\nation-sound77\app\public\wp-blog-header.php(16): wp()
+#18 C:\Users\kossi\Local Sites\nation-sound77\app\public\index.php(17): require('C:\\Users\\kossi\\...')
+#19 {main}
+  thrown in C:\Users\kossi\Local Sites\nation-sound77\app\public\wp-content\plugins\insert-headers-and-footers\includes\class-wpcode-snippet-execute.php(316) : eval()'d code on line 112
+[10-Oct-2024 03:55:38 UTC] PHP Fatal error:  Uncaught Error: Call to a member function get_entries() on null in C:\Users\kossi\Local Sites\nation-sound77\app\public\wp-content\plugins\insert-headers-and-footers\includes\class-wpcode-snippet-execute.php(316) : eval()'d code:112
+Stack trace:
+#0 C:\Users\kossi\Local Sites\nation-sound77\app\public\wp-includes\shortcodes.php(434): wpf_entries_table(Array, '', 'wpforms_entries...')
+#1 [internal function]: do_shortcode_tag(Array)
+#2 C:\Users\kossi\Local Sites\nation-sound77\app\public\wp-includes\shortcodes.php(273): preg_replace_callback('/\\[(\\[?)(wpform...', 'do_shortcode_ta...', '[wpforms_entrie...')
+#3 C:\Users\kossi\Local Sites\nation-sound77\app\public\wp-includes\class-wp-hook.php(324): do_shortcode('[wpforms_entrie...')
+#4 C:\Users\kossi\Local Sites\nation-sound77\app\public\wp-includes\plugin.php(205): WP_Hook->apply_filters('[wpforms_entrie...', Array)
+#5 C:\Users\kossi\Local Sites\nation-sound77\app\public\wp-includes\blocks\post-content.php(50): apply_filters('the_content', '<!-- wp:shortco...')
+#6 C:\Users\kossi\Local Sites\nation-sound77\app\public\wp-includes\class-wp-block.php(519): render_block_core_post_content(Array, '<!-- wp:shortco...', Object(WP_Block))
+#7 C:\Users\kossi\Local Sites\nation-sound77\app\public\wp-includes\class-wp-block.php(499): WP_Block->render()
+#8 C:\Users\kossi\Local Sites\nation-sound77\app\public\wp-includes\blocks.php(2061): WP_Block->render()
+#9 C:\Users\kossi\Local Sites\nation-sound77\app\public\wp-includes\blocks.php(2113): render_block(Array)
+#10 C:\Users\kossi\Local Sites\nation-sound77\app\public\wp-includes\block-template.php(260): do_blocks('<!-- wp:templat...')
+#11 C:\Users\kossi\Local Sites\nation-sound77\app\public\wp-includes\template-canvas.php(12): get_the_block_template_html()
+#12 C:\Users\kossi\Local Sites\nation-sound77\app\public\wp-includes\template-loader.php(106): include('C:\\Users\\kossi\\...')
+#13 C:\Users\kossi\Local Sites\nation-sound77\app\public\wp-blog-header.php(19): require_once('C:\\Users\\kossi\\...')
+#14 C:\Users\kossi\Local Sites\nation-sound77\app\public\index.php(17): require('C:\\Users\\kossi\\...')
+#15 {main}
+  thrown in C:\Users\kossi\Local Sites\nation-sound77\app\public\wp-content\plugins\insert-headers-and-footers\includes\class-wpcode-snippet-execute.php(316) : eval()'d code on line 112
+[10-Oct-2024 04:07:05 UTC] PHP Fatal error:  Uncaught Error: Call to a member function get_entries() on null in C:\Users\kossi\Local Sites\nation-sound77\app\public\wp-content\plugins\insert-headers-and-footers\includes\class-wpcode-snippet-execute.php(316) : eval()'d code:112
+Stack trace:
+#0 C:\Users\kossi\Local Sites\nation-sound77\app\public\wp-includes\shortcodes.php(434): wpf_entries_table(Array, '', 'wpforms_entries...')
+#1 [internal function]: do_shortcode_tag(Array)
+#2 C:\Users\kossi\Local Sites\nation-sound77\app\public\wp-includes\shortcodes.php(273): preg_replace_callback('/\\[(\\[?)(wpform...', 'do_shortcode_ta...', '<style id="wpfo...')
+#3 C:\Users\kossi\Local Sites\nation-sound77\app\public\wp-includes\class-wp-hook.php(324): do_shortcode('<style id="wpfo...')
+#4 C:\Users\kossi\Local Sites\nation-sound77\app\public\wp-includes\plugin.php(205): WP_Hook->apply_filters('<style id="wpfo...', Array)
+#5 C:\Users\kossi\Local Sites\nation-sound77\app\public\wp-includes\rest-api\endpoints\class-wp-rest-posts-controller.php(1871): apply_filters('the_content', '<!-- wp:wpforms...')
+#6 C:\Users\kossi\Local Sites\nation-sound77\app\public\wp-includes\rest-api\endpoints\class-wp-rest-posts-controller.php(958): WP_REST_Posts_Controller->prepare_item_for_response(Object(WP_Post), Object(WP_REST_Request))
+#7 C:\Users\kossi\Local Sites\nation-sound77\app\public\wp-includes\rest-api\class-wp-rest-server.php(1230): WP_REST_Posts_Controller->update_item(Object(WP_REST_Request))
+#8 C:\Users\kossi\Local Sites\nation-sound77\app\public\wp-includes\rest-api\class-wp-rest-server.php(1063): WP_REST_Server->respond_to_request(Object(WP_REST_Request), '/wp/v2/pages/(?...', Array, NULL)
+#9 C:\Users\kossi\Local Sites\nation-sound77\app\public\wp-includes\rest-api\class-wp-rest-server.php(439): WP_REST_Server->dispatch(Object(WP_REST_Request))
+#10 C:\Users\kossi\Local Sites\nation-sound77\app\public\wp-includes\rest-api.php(420): WP_REST_Server->serve_request('/wp/v2/pages/32...')
+#11 C:\Users\kossi\Local Sites\nation-sound77\app\public\wp-includes\class-wp-hook.php(324): rest_api_loaded(Object(WP))
+#12 C:\Users\kossi\Local Sites\nation-sound77\app\public\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#13 C:\Users\kossi\Local Sites\nation-sound77\app\public\wp-includes\plugin.php(565): WP_Hook->do_action(Array)
+#14 C:\Users\kossi\Local Sites\nation-sound77\app\public\wp-includes\class-wp.php(418): do_action_ref_array('parse_request', Array)
+#15 C:\Users\kossi\Local Sites\nation-sound77\app\public\wp-includes\class-wp.php(813): WP->parse_request('')
+#16 C:\Users\kossi\Local Sites\nation-sound77\app\public\wp-includes\functions.php(1336): WP->main('')
+#17 C:\Users\kossi\Local Sites\nation-sound77\app\public\wp-blog-header.php(16): wp()
+#18 C:\Users\kossi\Local Sites\nation-sound77\app\public\index.php(17): require('C:\\Users\\kossi\\...')
+#19 {main}
+  thrown in C:\Users\kossi\Local Sites\nation-sound77\app\public\wp-content\plugins\insert-headers-and-footers\includes\class-wpcode-snippet-execute.php(316) : eval()'d code on line 112
+[10-Oct-2024 04:07:09 UTC] PHP Fatal error:  Uncaught Error: Call to a member function get_entries() on null in C:\Users\kossi\Local Sites\nation-sound77\app\public\wp-content\plugins\insert-headers-and-footers\includes\class-wpcode-snippet-execute.php(316) : eval()'d code:112
+Stack trace:
+#0 C:\Users\kossi\Local Sites\nation-sound77\app\public\wp-includes\shortcodes.php(434): wpf_entries_table(Array, '', 'wpforms_entries...')
+#1 [internal function]: do_shortcode_tag(Array)
+#2 C:\Users\kossi\Local Sites\nation-sound77\app\public\wp-includes\shortcodes.php(273): preg_replace_callback('/\\[(\\[?)(wpform...', 'do_shortcode_ta...', '<style id="wpfo...')
+#3 C:\Users\kossi\Local Sites\nation-sound77\app\public\wp-includes\class-wp-hook.php(324): do_shortcode('<style id="wpfo...')
+#4 C:\Users\kossi\Local Sites\nation-sound77\app\public\wp-includes\plugin.php(205): WP_Hook->apply_filters('<style id="wpfo...', Array)
+#5 C:\Users\kossi\Local Sites\nation-sound77\app\public\wp-includes\blocks\post-content.php(50): apply_filters('the_content', '<!-- wp:wpforms...')
+#6 C:\Users\kossi\Local Sites\nation-sound77\app\public\wp-includes\class-wp-block.php(519): render_block_core_post_content(Array, '<!-- wp:wpforms...', Object(WP_Block))
+#7 C:\Users\kossi\Local Sites\nation-sound77\app\public\wp-includes\class-wp-block.php(499): WP_Block->render()
+#8 C:\Users\kossi\Local Sites\nation-sound77\app\public\wp-includes\blocks.php(2061): WP_Block->render()
+#9 C:\Users\kossi\Local Sites\nation-sound77\app\public\wp-includes\blocks.php(2113): render_block(Array)
+#10 C:\Users\kossi\Local Sites\nation-sound77\app\public\wp-includes\block-template.php(260): do_blocks('<!-- wp:templat...')
+#11 C:\Users\kossi\Local Sites\nation-sound77\app\public\wp-includes\template-canvas.php(12): get_the_block_template_html()
+#12 C:\Users\kossi\Local Sites\nation-sound77\app\public\wp-includes\template-loader.php(106): include('C:\\Users\\kossi\\...')
+#13 C:\Users\kossi\Local Sites\nation-sound77\app\public\wp-blog-header.php(19): require_once('C:\\Users\\kossi\\...')
+#14 C:\Users\kossi\Local Sites\nation-sound77\app\public\index.php(17): require('C:\\Users\\kossi\\...')
+#15 {main}
+  thrown in C:\Users\kossi\Local Sites\nation-sound77\app\public\wp-content\plugins\insert-headers-and-footers\includes\class-wpcode-snippet-execute.php(316) : eval()'d code on line 112
+[10-Oct-2024 09:27:12 UTC] Erreur d’événement de replanification de tâche pour le crochet action_scheduler_run_queue. Code d’erreur : invalid_schedule. Message d’erreur : L’évènement planifié n’existe pas.. Données : {"schedule":"every_minute","args":["WP Cron"],"interval":60}
+[12-Oct-2024 03:11:40 UTC] PHP Warning:  Undefined array key "key" in C:\Users\kossi\Local Sites\nation-sound77\app\public\wp-content\plugins\advanced-custom-fields\includes\admin\tools\class-acf-admin-tool-import.php on line 186
+[12-Oct-2024 03:11:40 UTC] PHP Warning:  Undefined array key "key" in C:\Users\kossi\Local Sites\nation-sound77\app\public\wp-content\plugins\advanced-custom-fields\includes\admin\tools\class-acf-admin-tool-import.php on line 187
+[12-Oct-2024 03:11:40 UTC] PHP Fatal error:  Uncaught TypeError: Illegal offset type in isset or empty in C:\Users\kossi\Local Sites\nation-sound77\app\public\wp-content\plugins\advanced-custom-fields\includes\acf-utility-functions.php:37
+Stack trace:
+#0 C:\Users\kossi\Local Sites\nation-sound77\app\public\wp-content\plugins\advanced-custom-fields\includes\acf-internal-post-type-functions.php(25): acf_get_instance(Array)
+#1 C:\Users\kossi\Local Sites\nation-sound77\app\public\wp-content\plugins\advanced-custom-fields\includes\acf-internal-post-type-functions.php(74): acf_get_internal_post_type_instance(false)
+#2 C:\Users\kossi\Local Sites\nation-sound77\app\public\wp-content\plugins\advanced-custom-fields\includes\admin\tools\class-acf-admin-tool-import.php(187): acf_get_internal_post_type_post(NULL, false)
+#3 C:\Users\kossi\Local Sites\nation-sound77\app\public\wp-content\plugins\advanced-custom-fields\includes\admin\admin-tools.php(199): ACF_Admin_Tool_Import->submit()
+#4 C:\Users\kossi\Local Sites\nation-sound77\app\public\wp-content\plugins\advanced-custom-fields\includes\admin\admin-tools.php(136): acf_admin_tools->check_submit()
+#5 C:\Users\kossi\Local Sites\nation-sound77\app\public\wp-includes\class-wp-hook.php(324): acf_admin_tools->load('')
+#6 C:\Users\kossi\Local Sites\nation-sound77\app\public\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#7 C:\Users\kossi\Local Sites\nation-sound77\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#8 C:\Users\kossi\Local Sites\nation-sound77\app\public\wp-admin\admin.php(237): do_action('load-acf_page_a...')
+#9 C:\Users\kossi\Local Sites\nation-sound77\app\public\wp-admin\edit.php(10): require_once('C:\\Users\\kossi\\...')
+#10 {main}
+  thrown in C:\Users\kossi\Local Sites\nation-sound77\app\public\wp-content\plugins\advanced-custom-fields\includes\acf-utility-functions.php on line 37
+[12-Oct-2024 19:25:42 UTC] Erreur d’événement de replanification de tâche pour le crochet jetpack_clean_nonces. Code d’erreur : could_not_set. Message d’erreur : La liste des évènements planifiés n’a pas pu être sauvegardée.. Données : {"schedule":"hourly","args":[],"interval":3600}
+[15-Oct-2024 21:15:48 UTC] PHP Fatal error:  Uncaught TypeError: TEC\Tickets\Commerce\Order::get_from_gateway_order_id(): Argument #1 ($gateway_order_id) must be of type string, null given, called in C:\Users\kossi\Local Sites\nation-sound77\app\public\wp-content\plugins\event-tickets\src\Tickets\Commerce\Shortcodes\Success_Shortcode.php on line 38 and defined in C:\Users\kossi\Local Sites\nation-sound77\app\public\wp-content\plugins\event-tickets\src\Tickets\Commerce\Order.php:710
+Stack trace:
+#0 C:\Users\kossi\Local Sites\nation-sound77\app\public\wp-content\plugins\event-tickets\src\Tickets\Commerce\Shortcodes\Success_Shortcode.php(38): TEC\Tickets\Commerce\Order->get_from_gateway_order_id(NULL)
+#1 C:\Users\kossi\Local Sites\nation-sound77\app\public\wp-content\plugins\event-tickets\src\Tickets\Commerce\Shortcodes\Shortcode_Abstract.php(101): TEC\Tickets\Commerce\Shortcodes\Success_Shortcode->setup_template_vars()
+#2 C:\Users\kossi\Local Sites\nation-sound77\app\public\wp-content\plugins\event-tickets\src\Tickets\Commerce\Shortcodes\Success_Shortcode.php(73): TEC\Tickets\Commerce\Shortcodes\Shortcode_Abstract->get_template_vars()
+#3 C:\Users\kossi\Local Sites\nation-sound77\app\public\wp-content\plugins\event-tickets\common\src\Tribe\Shortcode\Manager.php(116): TEC\Tickets\Commerce\Shortcodes\Success_Shortcode->get_html()
+#4 C:\Users\kossi\Local Sites\nation-sound77\app\public\wp-includes\shortcodes.php(434): Tribe\Shortcode\Manager->render_shortcode(Array, '', 'tec_tickets_suc...')
+#5 [internal function]: do_shortcode_tag(Array)
+#6 C:\Users\kossi\Local Sites\nation-sound77\app\public\wp-includes\shortcodes.php(273): preg_replace_callback('/\\[(\\[?)(tec_ti...', 'do_shortcode_ta...', '[tec_tickets_su...')
+#7 C:\Users\kossi\Local Sites\nation-sound77\app\public\wp-includes\class-wp-hook.php(324): do_shortcode('[tec_tickets_su...')
+#8 C:\Users\kossi\Local Sites\nation-sound77\app\public\wp-includes\plugin.php(205): WP_Hook->apply_filters('[tec_tickets_su...', Array)
+#9 C:\Users\kossi\Local Sites\nation-sound77\app\public\wp-includes\blocks\post-content.php(50): apply_filters('the_content', '<!-- wp:shortco...')
+#10 C:\Users\kossi\Local Sites\nation-sound77\app\public\wp-includes\class-wp-block.php(519): render_block_core_post_content(Array, '<!-- wp:shortco...', Object(WP_Block))
+#11 C:\Users\kossi\Local Sites\nation-sound77\app\public\wp-includes\class-wp-block.php(499): WP_Block->render()
+#12 C:\Users\kossi\Local Sites\nation-sound77\app\public\wp-includes\blocks.php(2061): WP_Block->render()
+#13 C:\Users\kossi\Local Sites\nation-sound77\app\public\wp-includes\blocks.php(2113): render_block(Array)
+#14 C:\Users\kossi\Local Sites\nation-sound77\app\public\wp-includes\block-template.php(260): do_blocks('<!-- wp:templat...')
+#15 C:\Users\kossi\Local Sites\nation-sound77\app\public\wp-includes\template-canvas.php(12): get_the_block_template_html()
+#16 C:\Users\kossi\Local Sites\nation-sound77\app\public\wp-includes\template-loader.php(106): include('C:\\Users\\kossi\\...')
+#17 C:\Users\kossi\Local Sites\nation-sound77\app\public\wp-blog-header.php(19): require_once('C:\\Users\\kossi\\...')
+#18 C:\Users\kossi\Local Sites\nation-sound77\app\public\index.php(17): require('C:\\Users\\kossi\\...')
+#19 {main}
+  thrown in C:\Users\kossi\Local Sites\nation-sound77\app\public\wp-content\plugins\event-tickets\src\Tickets\Commerce\Order.php on line 710
+[16-Oct-2024 08:32:30 UTC] PHP Fatal error:  Uncaught TypeError: TEC\Tickets\Commerce\Order::get_from_gateway_order_id(): Argument #1 ($gateway_order_id) must be of type string, null given, called in C:\Users\kossi\Local Sites\nation-sound77\app\public\wp-content\plugins\event-tickets\src\Tickets\Commerce\Shortcodes\Success_Shortcode.php on line 38 and defined in C:\Users\kossi\Local Sites\nation-sound77\app\public\wp-content\plugins\event-tickets\src\Tickets\Commerce\Order.php:710
+Stack trace:
+#0 C:\Users\kossi\Local Sites\nation-sound77\app\public\wp-content\plugins\event-tickets\src\Tickets\Commerce\Shortcodes\Success_Shortcode.php(38): TEC\Tickets\Commerce\Order->get_from_gateway_order_id(NULL)
+#1 C:\Users\kossi\Local Sites\nation-sound77\app\public\wp-content\plugins\event-tickets\src\Tickets\Commerce\Shortcodes\Shortcode_Abstract.php(101): TEC\Tickets\Commerce\Shortcodes\Success_Shortcode->setup_template_vars()
+#2 C:\Users\kossi\Local Sites\nation-sound77\app\public\wp-content\plugins\event-tickets\src\Tickets\Commerce\Shortcodes\Success_Shortcode.php(73): TEC\Tickets\Commerce\Shortcodes\Shortcode_Abstract->get_template_vars()
+#3 C:\Users\kossi\Local Sites\nation-sound77\app\public\wp-content\plugins\event-tickets\common\src\Tribe\Shortcode\Manager.php(116): TEC\Tickets\Commerce\Shortcodes\Success_Shortcode->get_html()
+#4 C:\Users\kossi\Local Sites\nation-sound77\app\public\wp-includes\shortcodes.php(434): Tribe\Shortcode\Manager->render_shortcode(Array, '', 'tec_tickets_suc...')
+#5 [internal function]: do_shortcode_tag(Array)
+#6 C:\Users\kossi\Local Sites\nation-sound77\app\public\wp-includes\shortcodes.php(273): preg_replace_callback('/\\[(\\[?)(tec_ti...', 'do_shortcode_ta...', '[tec_tickets_su...')
+#7 C:\Users\kossi\Local Sites\nation-sound77\app\public\wp-includes\class-wp-hook.php(324): do_shortcode('[tec_tickets_su...')
+#8 C:\Users\kossi\Local Sites\nation-sound77\app\public\wp-includes\plugin.php(205): WP_Hook->apply_filters('[tec_tickets_su...', Array)
+#9 C:\Users\kossi\Local Sites\nation-sound77\app\public\wp-includes\blocks\post-content.php(50): apply_filters('the_content', '<!-- wp:shortco...')
+#10 C:\Users\kossi\Local Sites\nation-sound77\app\public\wp-includes\class-wp-block.php(519): render_block_core_post_content(Array, '<!-- wp:shortco...', Object(WP_Block))
+#11 C:\Users\kossi\Local Sites\nation-sound77\app\public\wp-includes\class-wp-block.php(499): WP_Block->render()
+#12 C:\Users\kossi\Local Sites\nation-sound77\app\public\wp-includes\blocks.php(2061): WP_Block->render()
+#13 C:\Users\kossi\Local Sites\nation-sound77\app\public\wp-includes\blocks.php(2113): render_block(Array)
+#14 C:\Users\kossi\Local Sites\nation-sound77\app\public\wp-includes\block-template.php(260): do_blocks('<!-- wp:templat...')
+#15 C:\Users\kossi\Local Sites\nation-sound77\app\public\wp-includes\template-canvas.php(12): get_the_block_template_html()
+#16 C:\Users\kossi\Local Sites\nation-sound77\app\public\wp-includes\template-loader.php(106): include('C:\\Users\\kossi\\...')
+#17 C:\Users\kossi\Local Sites\nation-sound77\app\public\wp-blog-header.php(19): require_once('C:\\Users\\kossi\\...')
+#18 C:\Users\kossi\Local Sites\nation-sound77\app\public\index.php(17): require('C:\\Users\\kossi\\...')
+#19 {main}
+  thrown in C:\Users\kossi\Local Sites\nation-sound77\app\public\wp-content\plugins\event-tickets\src\Tickets\Commerce\Order.php on line 710
