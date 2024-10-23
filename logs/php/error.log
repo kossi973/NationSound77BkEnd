@@ -194,3 +194,4 @@ Stack trace:
 #18 C:\Users\kossi\Local Sites\nation-sound77\app\public\index.php(17): require('C:\\Users\\kossi\\...')
 #19 {main}
   thrown in C:\Users\kossi\Local Sites\nation-sound77\app\public\wp-content\plugins\event-tickets\src\Tickets\Commerce\Order.php on line 710
+[23-Oct-2024 08:56:11 UTC] Erreur d’événement de replanification de tâche pour le crochet wp_privacy_delete_old_export_files. Code d’erreur : could_not_set. Message d’erreur : La liste des évènements planifiés n’a pas pu être sauvegardée.. Données : {"schedule":"hourly","args":[],"interval":3600}
